@@ -1,3 +1,8 @@
-function hello() {
-    alert("Hello again");
+function main() {
+    function show_message() {
+        alert("Hello again");
+    }
+
+    show_message();
 }
+
